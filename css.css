@@ -1,11 +1,13 @@
 .desafio1 {
-background-color: purple;
+background-color: orange;
 }
 
 #lista1 {
+    color: blue;
     background-color: red;
+    list-style-type: armenian;
 }
 
 #lista2 {
-    background-color: green;
+    background-color: rgb(165, 46, 159);
 }
