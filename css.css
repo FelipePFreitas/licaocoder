@@ -10,4 +10,14 @@ background-color: orange;
 
 #lista2 {
     background-color: rgb(165, 46, 159);
+
+}
+
+@font-face { 
+    font-family: "internacional"; 
+    src: url("Inter-VariableFont_slnt\,wght.ttf"); 
+     }
+
+body {
+    font-family: "internacional";
 }
