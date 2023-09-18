@@ -12,3 +12,9 @@ div {
     overflow: auto;
     border: dotted 10px red ;
 }
+span {
+display: block;
+}
+p {
+    display: inline;
+}
