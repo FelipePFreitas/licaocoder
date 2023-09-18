@@ -7,5 +7,7 @@ div {
      /* propriedades que fazem o "problema" */
     width: 100px;
     height: 110px;
+    margin: 100px;
+    padding: 200px;
     overflow: auto;
 }
