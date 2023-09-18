@@ -7,7 +7,8 @@ div {
      /* propriedades que fazem o "problema" */
     width: 100px;
     height: 110px;
-    margin: 100px;
-    padding: 200px;
+    margin: 5px 8px 5px 8px;
+    padding: 6px 9px 6px 9px;
     overflow: auto;
+    border: dotted 10px red ;
 }
