@@ -2,3 +2,12 @@ a:focus{
     font-size: 100px;
     background-color: brown;
 }
+a:visited { 
+    color: red; 
+}
+div:hover { 
+    color: orange; 
+}
+a:active { 
+    color: blue; 
+}
