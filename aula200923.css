@@ -11,3 +11,19 @@ div:hover {
 a:active { 
     color: blue; 
 }
+
+li:first-child { 
+    color:red; 
+}
+li:last-child { 
+    color: green; 
+}
+li:nth-child(3){ 
+    color: yellow; 
+}
+li:not(.item){ 
+    font-size: 100px;
+    
+}
+
+
