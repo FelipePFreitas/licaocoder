@@ -26,4 +26,23 @@ li:not(.item){
     
 }
 
+input[type="radio"]:checked {
+    margin-left: 105px;
+}
+
+input[type="text"]:disabled {
+    background: yellowgreen;
+}
+
+input[type=email]:invalid {
+    background: orange;
+}
+input[type=email]:valid {
+    background: green;
+}
+
+input:required {
+    background: red;
+}
+
 

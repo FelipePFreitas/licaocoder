@@ -21,4 +21,33 @@
     <li>QUARTO</li>
 </ol>
 
+form>
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+            <span>Masculino</span>
+            <input type="radio" name="genero" value="masculino" />
+            <span>Feminino</span>
+            <input type="radio" name="genero" value="feminino" />
+            <span>Outro</span>
+            <input type="radio" name="genero" value="outro" />
+            <br>
+            <label for="nome_sobrenome">Nome:</label>   
+            <input type="text" name="nome_sobrenome" required/>
+            <label for="nome_sobrenome">Sobrenome:</label>   
+            <input type="text" name="nome_sobrenome"  disabled/>
+            <label for="email">email:</label>   
+            <input type="email" name="email" />
+            <br>
+            <select name="tamanhos">
+                <option value="G">Grande</option>
+                <option value="M">Médio</option>
+                <option value="P">Pequeno</option>
+            </select>
+            <button type="submit">
+                Enviar
+            </button>
+
+        </fieldset>
+     </form>
+
 </html>
