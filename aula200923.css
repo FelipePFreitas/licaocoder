@@ -22,7 +22,7 @@ li:nth-child(3){
     color: yellow; 
 }
 li:not(.item){ 
-    font-size: 100px;
+    font-size: 15px;
     
 }
 
@@ -43,6 +43,29 @@ input[type=email]:valid {
 
 input:required {
     background: red;
+}
+
+p::first-line {
+    color: blue;
+}
+
+::placeholder {
+    color: yellow
+}
+
+p::first-letter {
+    color: red;
+    text-transform: uppercase;
+    font-size: 100px;
+}
+
+p::selection {
+    color: red;
+    background: yellow;
+}
+::marker {
+    color: teal;
+    font-size: 50px;
 }
 
 
