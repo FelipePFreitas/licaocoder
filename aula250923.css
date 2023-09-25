@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+
+.numero1 {
+    width: 100px;
+    height: 100px;
+    background-image: radial-gradient(red,green);
+}
+.numero2 {
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(to right,red,blue);
+}
+
+.numero3 {
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(65deg,red,blue);
+}
+
+.numero4 {
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(65deg,red,blue);
+    transform: translate(10px, 20px);
+}
+.numero5 {
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(65deg,red,blue);
+    transform: translate(10px, 20px);
+    transform: scale(2,1);
+}
+
+.numero6 {
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(65deg,red,blue);
+    transform: translate(10px, 20px);
+    transform: scale(2,1);
+    transform: skew(20deg,10deg);
+}
