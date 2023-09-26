@@ -41,3 +41,53 @@
     transform: scale(2,1);
     transform: skew(20deg,10deg);
 }
+
+.caixa1 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.caixa2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.caixa3 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation-duration: 10ms;
+    animation-iteration-count: infinite;
+    animation-name: caixa;
+}
+
+@keyframes caixa{
+    0%{
+        transform: rotate(360deg);
+    }
+}
+    
+    
+
+
+.caixa1:hover {
+    transition: height 2s;
+    background-color: yellow;  
+    height: 150px;
+}
+.caixa2:hover{
+    transition: width 2s;
+    background-color: black;
+    width: 150px;
+    transform: rotate(35deg);
+}
+
+.caixa3:hover{
+    transition: all 2s;
+    background-color: green;
+    height: 200px;
+    width: 200px;
+}
+
