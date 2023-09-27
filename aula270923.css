@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    border: 5px solid;
+}
+.um {
+    background-color: aqua;
+    border: dotted;
+    width: 100px;
+    height: 100px;
+}
+.dois {
+    background-color: yellowgreen;
+    border: dotted;
+    width: 100px;
+    height: 100px;
+}
+.tres{
+    background-color: blue;
+    border: dotted;
+    width: 100px;
+    height: 100px;
+}
+.quatro{
+    background-color: blueviolet;
+    border: dotted;
+    width: 100px;
+    height: 100px;
+}
+.cinco{
+    background-color: brown;
+    border: dotted;
+    width: 100px;
+    height: 100px;
+}
