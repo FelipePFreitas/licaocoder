@@ -2,7 +2,7 @@
     margin: 0;
 }
 
-main {
+/* main {
     display: flex;
     flex-direction: row;
     flex-flow: row wrap;
@@ -37,4 +37,33 @@ main {
     border: dotted;
     width: 100px;
     height: 100px;
+} */
+
+body {
+    display:flex;
+    height: 100%;   
+}
+
+main {
+    display: flex;
+    height: 100%;
+}
+
+aside,nav {
+    background-color: pink;
+}
+
+header,footer {
+    background-color: gray;
+    height: 100%;
+    width: 100%;    
+}
+
+article{
+    background-color: pink;
+    width: 100%;
+}
+article,nav,aside,header,footer{
+    padding: 1px;
+    margin: 1px;
 }
