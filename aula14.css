@@ -1,28 +1,8 @@
 section {
     display: grid;
-    grid-template-areas: "header header header"
-    "nav aside aside"
-    "nav footer footer";
-    grid-template-columns: 1fr 4fr;
-    grid-template-rows: 100px 400px 100px;
-    gap: 10px;
+    grid-template-areas: "head";
+    grid-template-columns: 4fr 4fr 4fr 4fr 4fr ;
+    grid-template-rows: 1fr 1fr 1fr;
     }
-    
-    header {
-        grid-area: header;
-        background-color: aqua;
 
-    }
-    nav{
-        grid-area: nav;
-        background-color: blueviolet;
-    }
-    aside{
-        grid-area: aside;
-        background-color: brown;
-    }
-    footer{
-        grid-area: footer;
-        background-color: yellow;
-    }
-    
+   
